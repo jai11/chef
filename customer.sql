@@ -38,7 +38,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (2,'Nadya Eka','Jl. Ciwidey no 2000','nadya@yahoo.com','086454743743'),(3,'Amali','Jl. kemandoran no 10 Jakarta','amalia@langit.com','03937263623'),(4,'Angel ','Jl. Ciledug no 45A. tanggerang','angel@gmail.com','082271626121'),(5,'Ujang','Jl. ribut no 90 A','ujang@gmail.com','07846352532'),(6,'Memet','Blok cepu no 14. Bandung','memet@ongkek.com','038372636232'),(9,'Agung','Jl st Petersburg no 34. Russia','agung@yahoo.com','038373273262'),(10,'Jhon Taylor','St paris A . Block 43. paris','jtaylor@yahoo.com','039223232323'),(11,'jai1','hdfc','jai.jagani@yahoo.in','9960426938');
+INSERT INTO `customer` VALUES (2,'Nadya Eka','Jl. Ciwidey no 2000','nadya@yahoo.com','086454743743'),(3,'Amali','Jl. kemandoran no 10 Jakarta','amalia@langit.com','03937263623'),(4,'Angel ','Jl. Ciledug no 45A. tanggerang','angel@gmail.com','082271626121'),(5,'Ujang','Jl. ribut no 90 A','ujang@gmail.com','07846352532'),(6,'Memet','Blok cepu no 14. Bandung','memet@ongkek.com','038372636232'),(9,'Agung','Jl st Petersburg no 34. Russia','agung@yahoo.com','038373273262'),(10,'Jhon Taylor','St paris A . Block 43. paris','jtaylor@yahoo.com','039223232323'),(11,'jai jagani','hdfc colony, KSB chowk','jai.jagani@yahoo.in','9960426456');
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-11-18 19:35:24
+-- Dump completed on 2014-11-18 19:35:38
