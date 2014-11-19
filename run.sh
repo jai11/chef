@@ -7,10 +7,11 @@ MYSQL=`which mysql`
 Q1="CREATE DATABASE IF NOT EXISTS $1;"
 Q2="GRANT USAGE ON *.* TO $2@'%' IDENTIFIED BY '$3';"
 Q3="GRANT ALL PRIVILEGES ON $1.* TO $2@'%';"
-Q4="FLUSH PRIVILEGES;"
-Q5="use nodejs;"
-Q6="source customer.sql;"
-SQL="${Q1}${Q2}${Q3}${Q4}${Q5}${Q6}"
+Q4="GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '' WITH GRANT OPTION;"
+Q5="FLUSH PRIVILEGES;"
+Q6="use nodejs;"
+Q7="source customer.sql;"
+SQL="${Q1}${Q2}${Q3}${Q4}${Q5}${Q6}${Q7}"
  
 if [ $# -ne $EXPECTED_ARGS ]
 then
