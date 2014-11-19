@@ -29,7 +29,7 @@ CREATE TABLE `customer` (
   `email` varchar(200) NOT NULL,
   `phone` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (2,'Nadya Eka','Jl. Ciwidey no 2000','nadya@yahoo.com','086454743743'),(3,'Amali','Jl. kemandoran no 10 Jakarta','amalia@langit.com','03937263623'),(4,'Angel ','Jl. Ciledug no 45A. tanggerang','angel@gmail.com','082271626121'),(5,'Ujang','Jl. ribut no 90 A','ujang@gmail.com','07846352532'),(6,'Memet','Blok cepu no 14. Bandung','memet@ongkek.com','038372636232'),(9,'Agung','Jl st Petersburg no 34. Russia','agung@yahoo.com','038373273262'),(10,'Jhon Taylor','St paris A . Block 43. paris','jtaylor@yahoo.com','039223232323'),(11,'jai jagani','PUNE ,INDIA','jai_jagani@welcome.com','9960426456'),(12,'Alkesh','Pune','abc@wfd.com','3214342');
+INSERT INTO `customer` VALUES (2,'Nadya Eka','Jl. Ciwidey no 2000','nadya@yahoo.com','086454743743'),(3,'Amali','Jl. kemandoran no 10 Jakarta','amalia@langit.com','03937263623'),(4,'Angel ','Jl. Ciledug no 45A. tanggerang','angel@gmail.com','082271626121'),(5,'Ujang','Jl. ribut no 90 A','ujang@gmail.com','07846352532'),(6,'Memet','Blok cepu no 14. Bandung','memet@ongkek.com','038372636232'),(9,'Agung','Jl st Petersburg no 34. Russia','agung@yahoo.com','038373273262'),(10,'Jhon Taylor','St paris A . Block 43. paris','jtaylor@yahoo.com','039223232323'),(11,'jai jagani','hdfc colony, KSB chowk','jai.jagani@yahoo.in','9960426456');
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-11-19  7:03:10
+-- Dump completed on 2014-11-19  7:33:06
